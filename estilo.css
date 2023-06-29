@@ -69,17 +69,16 @@ h1 {
 img {
     display: block;
     max-width: 100%;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
     border: 3px  solid #fff;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.tamanho-outros:hover
-{
-        -webkit-transform: scale(1.03);
-        -ms-transform: scale(1.03);
-        transform: scale(1.03);
+.tamanho-outros:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .outros_lugares h2:after {
@@ -112,6 +111,7 @@ h2::after {
 .tamanho {
     width: 450px;
     margin-left: 10px;
+    margin-bottom: .2px;
 }
 .tamanho a {
     color: rgb(103, 19, 199);
@@ -127,7 +127,7 @@ h2::after {
 /*OUTROS LUGARES*/
 .outros_lugares {
     background-color: #145DA0;
-    height: 1100px;
+    height: 1000px;
     margin-top: 35px;
 }
 
@@ -143,16 +143,21 @@ h2::after {
 .tamanho-outros {
     margin-left: 30px;
 }
-.tamanho-outros p {
-    background-color: #ffffff;
+
+
+
+/*balão com os nomes dos lugares*/
+.tamanho-outros p { 
+    background-color: #fff;
     margin-left: 10px;
+    margin-right: -2px;
     text-align: center;
     font-size: 24px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-
-
 }
+
+
 
 /*VIDEO-MUSICA*/
 .video-musica {
@@ -169,8 +174,9 @@ h2::after {
     margin-bottom: 40px;
 
 }
-/*FOOTER*/
 
+
+/*FOOTER*/
 .footer {
     background-color:#0C2D48;
     text-align: center;
